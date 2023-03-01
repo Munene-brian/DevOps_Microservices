@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=0124578/trail
+dockerpath=0124578/myproject:v1
 # Step 2:  
 # Authenticate & tag
 docker login
