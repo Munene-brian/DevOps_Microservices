@@ -49,6 +49,7 @@ jobs:
               command: |-
                 . venv/bin/activate
                 cd project-ml-microservice-kubernetes
+                hadolint Dockerfile
                 make lint
 workflows:
   default:
