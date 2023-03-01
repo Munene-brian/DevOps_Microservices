@@ -1,4 +1,3 @@
-
 [![Munene-brian](https://circleci.com/gh/Munene-brian/DevOps_Microservices.svg?style=svg)](https://app.circleci.com/pipelines/github/Munene-brian/DevOps_Microservices)
 ## Project Overview
 
