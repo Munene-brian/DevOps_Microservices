@@ -9,7 +9,6 @@ commands:
           name: goto_directory
           command: |
             cd project-ml-microservice-kubernetes
-            echo "I am in directory"
 jobs:
     build:
         docker:
@@ -49,8 +48,7 @@ jobs:
               name: run lint
               command: |-
                 . venv/bin/activate
-                cd project-ml-microservice-kubernetes
-                make lint 
+                make lint
 workflows:
   default:
     jobs:
